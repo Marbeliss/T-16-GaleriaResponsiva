@@ -1,0 +1,29 @@
+
+.container-navbar{
+
+  min-width: 100%;
+  background-color: #130530;
+  box-shadow: 0 0 1em hsla(180, 2%, 22%, 0.331);
+  position: fixed;
+  z-index: 100;
+
+}
+
+.btn-Comprar-ahora{
+ color: #ffffff; /*Color de letra*/
+ padding: 0.2em 1.2em; /*tamaño del boton*/
+ font-size: 18px;
+ border-radius: 11.5em;
+ background: #080F15;
+ border: 1px solid #0a0a0a;
+ transition: all .3s;
+ box-shadow: 6px 6px 12px #2db6dc72,
+             -6px -6px 12px #2134a156;
+}
+
+button:active {
+ color: #666;
+ box-shadow: inset 4px 4px 12px #1d22ba74,
+             inset -4px -4px 12px #7ca71761;
+}
+
